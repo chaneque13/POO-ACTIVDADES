@@ -7,7 +7,3 @@ function changeBack(){
     document.body.style.backgroundColor = "red";
 
 }
-
-function  messageEER(){
-    alert("ERROR 404");
-}
