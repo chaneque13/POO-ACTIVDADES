@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Calculadora Inteligente</h1>
+
+    <!--Lista en la cual se realizara la primera parte del evento-->
+    <select name="lista" id="lista" onchange="operacionSel()">
+        <option value="">Seleccionar</option>
+        <option value="calcTriangu">Area del triangulo</option>
+        <option value="voluEsf">Volumen de la esfera </option>
+        <option value="convDivi">Conversion de divisas</option>
+    </select>    
+
+            <div id="operacion">
+
+            </div>
+
+
+            <button onclick="borrarHistorial()" id="btn-borrar">Borrar historial</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario Basico</h1>
+    </header>
+        <form id="formu">
+                <ul>
+                    <li>
+                        <label for="name">Nombre: </label>
+                        <input type="text" name="user_name" id="name">
+                    </li>
+                    <li>
+                        <label for="lastname">Apellido: </label>
+                        <input type="text" name="user_lastname" id="lastname">
+                    </li>
+                    <li>
+                        <label for="mail">Correo Electronico: </label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                   <li class="btn1">
+                        <button type="submit">Ingresar datos</button>                        
+                    </li>
+                    
+                </ul>
+        </form>
+        
+    <div class="datosRe">
+        <table id="tablaDatos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    
+                </tr>
+                
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>

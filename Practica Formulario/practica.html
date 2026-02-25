@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<button onclick="escribir()">Usar document.write()</button>
+
+<button onclick="cambiarTexto()">Usar innerHTML</button>
+
+<button onclick="cambiarColor()">Cambiar color</button>
+<div id="resultado">Aquí aparecerá el texto</div>
+
+<script>
+
+        function escribir() { document.write("Este texto reemplazó  todo el contenido."); }
+
+    function cambiarTexto() {
+    document.getElementById("resultado").innerHTML = "Texto cambiado con innerHTML"; }
+
+        function cambiarColor(){
+            document.getElementById("resultado").style.color = "blue";
+        }
+</script>
+
+
+
+</body>
+
+</html>
